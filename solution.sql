@@ -56,7 +56,7 @@ SELECT distinct(region) FROM salespeople;
 -- Task: Write a query that shows the emails of all salespeople from
 -- both the Northwest and Southwest regions.
 
-quiz=# select email from salespeople where region = 'Northwest' or region = 'Southwest';
+select email from salespeople where region = 'Northwest' or region = 'Southwest';
 
 -- Problem 11:
 -- Task: Write a query that shows the emails of all salespeople from
